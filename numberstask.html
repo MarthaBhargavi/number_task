@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number_method_task</title>
+</head>
+<body>
+    <script>
+        
+            // const to_day=new Date();
+            // const hour=to_day.getHours()
+            // console.log(hour)
+
+// **************Create a  function to convert 24 hr time to 12hr time************
+            
+            
+            // const to_day=new Date("2023-11-19 9:30:45");
+            // function hour_1(){
+            //     if(to_day.getHours()<=12){
+            //     console.log(to_day.getHours())
+            //     }else{
+            //         console.log(to_day.getHours()-12)
+            //     }
+            // }
+            // hour_1(hour_1)
+
+
+
+//*********create a function to generate the otp of 6 digits***********
+
+        // let otp=Math.random()*1000000
+        // if(otp>10000){
+        //  let otp1=otp.toFixed(0)
+        //     console.log(otp1)
+        // }
+        //or//
+        // function otp(){
+        // console.log((Math.random(otp)*1000000).toFixed(0))
+        // }
+        // otp(otp)
+
+
+// based on the number create a function to return day of the week
+        const to_day=new Date("2002-12-10 12:45:02");
+        function day(){
+            if(to_day.getDay()==1){
+            console.log(to_day.getDay(),"monday")}
+            else if(to_day.getDay()==2){
+                console.log(to_day.getDay(),"Tuesday")}
+                else if(to_day.getDay()==3){
+                    console.log(to_day.getDay(),"Wednesday")}
+                    else if(to_day.getDay()==4){
+                        console.log(to_day.getDay(),"Thusday")}
+                        else if(to_day.getDay()==5){
+                            console.log(to_day.getDay(),"Friday")}
+                            else if(to_day.getDay()==6){
+                                console.log(to_day.getDay(),"saturday")}
+                                else {
+                                    console.log(to_day.getDay(),"Sunday")}
+            
+        }
+        day(day)
+
+    </script>
+</body>
+</html>
